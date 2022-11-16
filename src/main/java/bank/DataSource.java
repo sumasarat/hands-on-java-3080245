@@ -23,7 +23,8 @@ public static void main(String[] args){
 
 public static Customer getCustomer (String username){
   String sql = "select * from customers where username =?";
-  try(Connection Connection = connect();PreparedStatement){
+  try(Connection connection = connect(); 
+   PreparedStatement statement = ){
     
   }
   catch(SQLException e){
